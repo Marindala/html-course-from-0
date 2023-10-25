@@ -3,38 +3,54 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head> <!-- parte que leen las paginas web, poner palabras claves -->
+  <head>
+    <!-- parte que leen las paginas web, poner palabras claves -->
     <!-- metadatos -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- primero mobile first -->
-    <title>Afianzando conceptos HTML</title> <!-- titulo de la pestaña -->
-    <meta name="author" content="Marina">
-    <!-- para posicionarse a nivel SEO, buscar palabras claves -->
-    <meta name="keywords" content="tutorial estructura HTML, CSS, javascript">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- primero mobile first -->
+    <title>Afianzando conceptos HTML</title>
+    <!-- titulo de la pestaña -->
+    <meta name="author" content="Marina" />
+    <!-- para posicionarse a nivel SEO, buscar palabras claves, palabras codigo -->
+    <meta name="keywords" content="tutorial estructura HTML, CSS, javascript" />
     <!-- que haga refresh en tanto tiempo y que redireccione ejemplo a mi linkedin -->
-   <!--  <meta http-equiv="refresh" content="5;https://www.linkedin.com/in/marina~lopez/"> -->
+    <!--  <meta http-equiv="refresh" content="5;https://www.linkedin.com/in/marina~lopez/"> -->
     <!-- apunta al css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- favicon --> <!-- actualizar extensiones para que de la opcion al escribir link y da opcion favicon -->
-    <!-- https://iconos8.es/icons/set/favicon --> <!-- elegir icons seleccionar descarga por favicon 16x16 -->
-    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <!-- favicon -->
+    <!-- actualizar extensiones para que de la opcion al escribir link y da opcion favicon -->
+    <!-- https://iconos8.es/icons/set/favicon -->
+    <!-- elegir icons seleccionar descarga por favicon 16x16 -->
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon" />
+  </head>
+  <!-- seguimos con etiqueta body en plataforma miro https://miro.com/app/ y me voy al gym -->
 
+  <!-- ALT + SHIFT + F (identación automatica) -->
 
-</head>
-<!-- seguimos con etiqueta body en plataforma miro https://miro.com/app/ y me voy al gym -->
+  <body style="background-color: burlywood">
+    <!-- respetar siempre para el SEO 1 h1 respetar por jerarquia-->
+    <h1>Repaso HTML</h1>
+    <!-- elemento p en bloque elementos i y b son en linea el estilo aplica en bloque en p y solo al elemento en i y b example: -->
+    <p>
+      Lorem ipsum <i> i Es etiqueta cursiva</i> dolor sit amet consectetur,
+      adipisicing elit. Magnam quasi illo cumque consequatur eaque quisquam,
+      numquam beatae blanditiis! Ducimus minus ipsa facere beatae, saepe sed
+      fuga eveniet <b> b Es etiqueta Negrita</b>
+    </p>
 
-<body>
- <!-- elemento p en bloque elementos i y b son en linea el estilo aplica en bloque en p y solo al elemento en i y b example: -->
-    <p>Lorem ipsum <i> i Es etiqueta cursiva</i> dolor sit amet consectetur, adipisicing elit. Magnam quasi illo cumque consequatur eaque quisquam, numquam beatae blanditiis! Ducimus minus ipsa facere beatae, saepe sed fuga eveniet <b> b Es etiqueta Negrita</b></p>
-
-    <p style="background-color: yellow;">Ver como se aplica en p</p>
+    <p style="background-color: yellow">Ver como se aplica en p</p>
     <!-- utilizar a nivel semantico strong and em -->
-    <b style="background-color: aquamarine;">Ver como se aplica en b y en i</b>
+    <b style="background-color: aquamarine">Ver como se aplica en b y en i</b>
 
-    
+    <p>Este texto es Importante: <strong>IMPORTANTE</strong></p>
+    <!-- utilizar a nivel semantico strong and em -->
+    <p>Este texto es Enfático: <em>ENFÁTICO</em></p>
+
+    <!-- etiqueta para salto de linea <br> -->
+    <!-- etiqueta para salto de linea con línea divisoria <hr> -->
 
     <!-- script dentro del body al pie redirecciona a index.js -->
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
-
