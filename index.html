@@ -92,11 +92,17 @@
     <a href="mailto:marinalopezka@gmail.com" target="_blank">Enviar Mail a contacto</a>
 
     <!--elementos multimedias directamente se le pone el height -->
-    <a href="https://github.com/Marindala" target="_blank">
+    <!-- <a href="https://github.com/Marindala" target="_blank">
     <img src="./assets/img/img.jpg" alt="vos que estas programando" height="300">
     </a>
+    <br> -->
     <!--Vamos con video etiqueta video autoplay para comenzar, muted para silenciar, controls=muestra los controles incluso con opcion para descargar  -->
-    <video src="./assets/video/video.mp4" controls autoplay muted width="500"></video>
+    <!-- <video src="./assets/video/video.mp4" controls autoplay muted width="200 px"></video> -->
+    <!-- propiedad poster para que aparezca una imagen principal, no tiene que tener el autoplay -->
+    <video controls muted width="200px" poster="/assets/img/img.jpg">
+      <source src="/assets/video/video.mp4" type="video/mp4">
+      <p>Tu Navegador no soporta este formato click aquí para descargar <a href="/assets/video/video.mp4"></a></p>
+    </video>
 
     <!-- script dentro del body al pie redirecciona a index.js -->
     <script src="index.js"></script>
